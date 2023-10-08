@@ -5,7 +5,7 @@ import { useFetch } from './useFetch'
 export const CustomHook = () => {
    
     const{counter,Increment}=useCounter(1)
-    const{data,isLoading,hasError}=useFetch(`https://api.giphy.com/v1/gifs/search?api_key=Ns4NdhIX21HEqu9xdgsozNuiNyuy937q&q=${counter}`)
+    const{data,isLoading,hasError}=useFetch(`https://breakingbadapi.com/api/quotes/1${counter}`)
   return (
     <>
     <h1>CustomHook</h1>
