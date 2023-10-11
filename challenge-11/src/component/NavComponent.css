@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilo para resaltar la ruta activa */
+  .active {
+    font-weight: bold;
+  }
