@@ -5,7 +5,7 @@ import { useFetch } from './useFetch'
 export const CustomHook = () => {
    
     const{counter,Increment}=useCounter(1)
-    const{data,isLoading,hasError}=useFetch(`https://breakingbadapi.com/api/quotes/1${counter}`)
+    const{data,isLoading,hasError}=useFetch(`https://pokeapi.co/api/v2/pokemon/${counter}`)
   return (
     <>
     <h1>CustomHook</h1>
