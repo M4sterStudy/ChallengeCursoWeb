@@ -7,13 +7,12 @@ import LoginPage from './pages/LoginPage';
 
 const MainApp = () => {
   return (
-    <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="login" element={<LoginPage />} />
       </Routes>
-    </Layout>
+
   );
 };
 
